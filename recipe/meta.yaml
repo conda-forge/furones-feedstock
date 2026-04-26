@@ -1,5 +1,5 @@
 {% set name = "furones" %}
-{% set version = "0.1.3" %}
+{% set version = "0.1.7" %}
 {% set python_min = "3.12" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/furones-{{ version }}.tar.gz
-  sha256: 137cdcac0c51c140f917bb20d14837858278e65be074fd70a663adce6ca18a02
+  sha256: fe8f91833e412379bde3287ca51c5288a443e21358457f88357ba7d7dea551cc
 
 build:
   entry_points:
